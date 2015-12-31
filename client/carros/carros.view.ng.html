@@ -1,0 +1,9 @@
+<div class="panel panel-default">
+	<div class="panel-body">
+		<form name="carros.form" ng-submit="handleSubmit()">
+			<formly-form fields="carros.carroFields" model="carros.carro">
+				<button class="btn btn-success" ng-disabled="carros.forms.$invalid" type="submit">Gravar</button>
+			</formly-form>
+		</form>
+	</div>
+</div>
